@@ -36,6 +36,7 @@ class Mario
 
   show ()
   {
+    this.r = (windowWidth+windowHeight)/20;
     image(marioImg,this.x,this.y,this.r,this.r);
     //fill(255,50);
     //rect(this.x,this.y,this.r,this.r);

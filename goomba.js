@@ -14,6 +14,8 @@ class Goomba
 
   show()
   {
+    this.r = (windowWidth+windowHeight)/40;
+    this.y = height-this.r;
     image(goombaImg,this.x,this.y,this.r,this.r);
     //rect(this.x,this.y,this.r,this.r);
   }
